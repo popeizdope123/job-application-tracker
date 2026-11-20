@@ -30,7 +30,7 @@ export default function Navbar() {
                 </Button>
               </Link>
               <DropdownMenu>
-                <DropdownMenuTrigger render={<Button className="relative h-8 w-8 rounded-full"/>}>
+                <DropdownMenuTrigger render={<Button variant="ghost" className="relative h-8 w-8 rounded-full"/>}>
                     <Avatar className="h-8 w-8">
                       <AvatarFallback className="bg-primary text-white">
                         {session.user.name[0].toUpperCase()}
